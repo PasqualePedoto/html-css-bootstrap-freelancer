@@ -1,0 +1,40 @@
+/* UTILS */
+
+.debug > *{
+    border: 1px dashed black;
+}
+
+.my-border{
+    border: 1px dashed white;
+}
+
+header{
+    background-color: #2C3E50;
+    height: 60px;
+}
+
+/* MY PADDING */
+
+.PP-pl-sm-30{
+    padding-left: 30px;
+}
+
+.PP-pr-sm-30{
+    padding-right: 30px;
+}
+
+
+/* Font size per l'ul nell'header */
+
+.header-ul-size{
+    font-size: 12px;
+}
+
+/* 
+BOOTSTRAP USA IL MARGIN-BOTTOM
+LO ABBIAMO ELIMINATO COSI 
+*/
+
+ul{
+    margin-bottom: 0;
+}
