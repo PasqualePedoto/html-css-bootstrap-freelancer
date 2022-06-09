@@ -16,11 +16,32 @@ header{
 .block-center{
     text-align: center;
 }
+/* HTML */
+
+html{
+    scroll-behavior: smooth;
+}
 
 /* PALETTE */
 
 .bgc-green{
     background-color: #2DBC9C;
+}
+
+.color-green{
+    color: #2DBC9C;
+}
+
+.bgc-reference{
+    background-color: #3A546D;
+}
+
+.color-text-black{
+    color: #2C3E50;
+}
+
+.color-gray{
+    color: gray;
 }
 
 /* MY PADDING */
@@ -35,6 +56,12 @@ header{
 
 .PP-p-30{
     padding: 30px;
+}
+
+/* MY MARGIN */
+
+.PP-mt-100{
+    margin-top: 150px;
 }
 
 /* FONT SIZE */
@@ -68,6 +95,10 @@ ul{
     height: 30px;
 }
 
+.my-h-50{
+    height: 50px;
+}
+
 .my-h-300{
     height: 300px;
 }
@@ -79,5 +110,27 @@ ul{
     border-color: white;
 }
 
+.PP-w-400{
+    width: 400px;
+}
 
+/* Send btn */
 
+.btn.btn-primary.send-btn{
+    background-color: #2DBC9C;
+    border-color: #2DBC9C;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #2C3E50;
+
+    font-size: 12px;
+}
+
+/* Font per le icone */
+
+.font-icon{
+    font-size: 25px;
+}
