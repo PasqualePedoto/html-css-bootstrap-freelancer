@@ -5,12 +5,18 @@
 }
 
 .my-border{
-    border: 1px dashed white;
+    border: 1px dashed black;
 }
 
 header{
     background-color: #2C3E50;
     height: 60px;
+}
+
+/* PALETTE */
+
+.bgc-green{
+    background-color: #2DBC9C;
 }
 
 /* MY PADDING */
@@ -23,11 +29,16 @@ header{
     padding-right: 30px;
 }
 
+.PP-p-30{
+    padding: 30px;
+}
+
+/* FONT SIZE */
 
 /* Font size per l'ul nell'header */
 
-.header-ul-size{
-    font-size: 12px;
+.font-size-15{
+    font-size: 15px;
 }
 
 /* 
@@ -37,4 +48,14 @@ LO ABBIAMO ELIMINATO COSI
 
 ul{
     margin-bottom: 0;
+}
+
+/* Altezza fissa per le cards */
+
+/**************************
+    DA ELIMINARE
+***************************/
+
+.my-h-50{
+    height: 300px;
 }
