@@ -197,49 +197,80 @@
         <!-- SECTION CONTACT -->
         <section id="contact">
             <div class="container">
-                <div>
-                    <h2 class="text-center color-text-black">CONTACT ME</h2>
+                
+                <!-- ROW CREATE SOLO PER FAR SPAZIO IN MANIERA 
+                PULITA SENZA PADDING O MARGIN AGGIUNTIVO -->
+                <div class="row _h-30">
+                    <div class="col"></div>
                 </div>
-                <!-- ADDRESS -->
-                <div class="d-flex align-items-center justify-content-center">
-                    
-                    <div class="row PP-w-400">
-                        <div class="col-12">
-                            <div class="row pt-3">
-                                <div class="col-6 d-flex align-items-end">
-                                    <span>Nome</span>
-                                </div>
-                                <div class="col-6"></div>
+
+                 <!-- CONTENT ROW -->
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">CONTACT ME</h2>
+                    </div>
+                </div>
+
+                <!-- ROW CREATE SOLO PER FAR SPAZIO IN MANIERA 
+                PULITA SENZA PADDING O MARGIN AGGIUNTIVO -->
+                <div class="row _h-30">
+                    <div class="col"></div>
+                </div>
+
+                <!-- FORM -->
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+
+                        <form>
+                            <!-- NAME -->
+                            <div class="row mb-3 border-bottom">
+                              <label for="name" class="col col-form-label pe-0 ps-0 pb-3">Nome</label>
+                              <div class="col-10">
+                                <input type="text" class="form-control border-0" id="name">
+                              </div>
                             </div>
-                            <hr>
-                            <div class="row pt-3">
-                                <div class="col-6 d-flex align-items-end">
-                                    <span>Email Address</span>
-                                </div>
-                                <div class="col-6"></div>
+
+                            <!-- EMAIL ADDRESS -->
+                            <div class="row mb-3 border-bottom">
+                              <label for="email" class="col col-md-3 col-form-label pe-0 ps-0 pb-3">Email Address</label>
+                              <div class="col col-md-9">
+                                <input type="email" class="form-control border-0" id="email">
+                              </div>
                             </div>
-                            <hr>
-                            <div class="row pt-3">
-                                <div class="col-6 d-flex align-items-end">
-                                    <span>Phone Number</span>
+
+                            <!-- PHONE NUMBER -->
+                            <div class="row mb-3 border-bottom">
+                                <label for="phone" class="col col-md-3 col-form-label pe-0 ps-0 pb-3">Phone Number</label>
+                                <div class="col col-md-9">
+                                  <input type="tel" class="form-control border-0" id="phone">
                                 </div>
-                                <div class="col-6"></div>
                             </div>
-                            <hr>
-                            <div class="row pt-3">
-                                <div class="col-6 d-flex align-items-end">
-                                    <span>Message</span>
+
+                            <!-- MESSAGE -->
+                            <div class="row mb-3 border-bottom">
+                                <label for="message" class="col col-form-label pe-0 ps-0 pb-3">Message</label>
+                                <div class="col-10">
+                                  <textarea name="" id="message" cols="30" rows="10" class="form-control border-0"></textarea>
                                 </div>
-                                <div class="col-6"></div>
                             </div>
-                        </div>
-                        
-                        <div class="col-12 PP-mt-100">
-                            <!-- Button -->
-                            <hr class="color-gray">
-                            <a href="#" class="btn btn-primary send-btn" role="button" data-bs-toggle="button">Send</i></a>
+                        </form>
+
+                        <!-- SEND FORM BTN -->
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary send-btn bgc-green border-green">SEND</button>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-2"></div>
+                </div>
+                <!-- FINE FORM -->
+
+                <!-- ROW CREATE SOLO PER FAR SPAZIO IN MANIERA 
+                PULITA SENZA PADDING O MARGIN AGGIUNTIVO -->
+                <div class="row _h-30">
+                    <div class="col"></div>
                 </div>
             </div>
         </section>
@@ -312,5 +343,6 @@
             </div>
         </div>
     </footer>
+    
 </body>
 </html>

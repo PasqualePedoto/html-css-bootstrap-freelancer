@@ -1,4 +1,12 @@
-/* UTILS */
+/* HTML */
+
+html{
+    scroll-behavior: smooth;
+}
+
+/****** UTILS *******/
+
+/* BORDER */
 
 .debug > *{
     border: 1px dashed black;
@@ -8,17 +16,11 @@
     border: 1px dashed black;
 }
 
-header{
-    background-color: #2C3E50;
-    height: 60px;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-
-    z-index: 5;
+.border-green{
+    border-color: #2DBC9C;
 }
+
+/* TEXT AND IMG SPACING */
 
 .block-center{
     text-align: center;
@@ -39,11 +41,6 @@ img{
     display: block;
 
     object-fit: cover;
-}
-/* HTML */
-
-html{
-    scroll-behavior: smooth;
 }
 
 /* PALETTE */
@@ -68,40 +65,6 @@ html{
     color: gray;
 }
 
-/* MY PADDING */
-
-.PP-pl-sm-30{
-    padding-left: 30px;
-}
-
-.PP-pr-sm-30{
-    padding-right: 30px;
-}
-
-.PP-p-30{
-    padding: 30px;
-}
-
-._my-pt-60{
-    padding-top: 60px;
-}
-
-/* MY MARGIN */
-
-.PP-mt-100{
-    margin-top: 150px;
-}
-
-/* ALTEZZE */
-
-._h-50{
-    height: 50px;
-}
-
-._h-30{
-    height: 30px;
-}
-
 /* FONT SIZE */
 
 /* Font size per l'ul nell'header */
@@ -123,11 +86,11 @@ ul{
     margin-bottom: 0;
 }
 
-/* Altezza fissa per le cards */
-
-/**************************
-    DA ELIMINARE
-***************************/
+/* 
+Altezza fissa per le row vuote utili per
+creare area tra i contenuti senza spaccare le classi
+di bootstrap
+*/
 
 .my-h-30{
     height: 30px;
@@ -141,6 +104,41 @@ ul{
     height: 300px;
 }
 
+._h-50{
+    height: 50px;
+}
+
+._h-30{
+    height: 30px;
+}
+
+/******* WIDTH *******/
+
+._my-w-400{
+    width: 400px;
+}
+
+/* HEADER */
+
+header{
+    background-color: #2C3E50;
+    height: 60px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 5;
+}
+
+/* Dowload BTN */
+
+/* 
+Cancelliamo tutti i side-effects messi da bootstrap
+sia in hover che active che focus
+*/
+
 .btn.btn-primary.download-btn{
     font-size: 10px;
 
@@ -148,11 +146,45 @@ ul{
     border-color: white;
 }
 
+.btn.download-btn:focus{
+    box-shadow: none;
+}
+
+.btn.download-btn:hover{
+    background-color: #2DBC9C;
+    border-color: white;
+}
+
+/* 
+Eliminiamo l'ingradimento manuale della textareea
+all'interno del form 
+*/
+
+textarea{
+    resize: none;
+}
+
 /* Send btn */
 
-.btn.btn-primary.send-btn{
+/* 
+Cancelliamo tutti i side-effects messi da bootstrap
+sia in hover che active che focus
+*/
+
+.btn.send-btn:hover{
     background-color: #2DBC9C;
     border-color: #2DBC9C;
+}
+
+.btn.send-btn:active{
+    background-color: #2DBC9C;
+    border-color: #2DBC9C;
+}
+
+.btn.send-btn:focus{
+    background-color: #2DBC9C;
+    border-color: #2DBC9C;
+    box-shadow: none;
 }
 
 /* FOOTER */
