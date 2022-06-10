@@ -11,6 +11,13 @@
 header{
     background-color: #2C3E50;
     height: 60px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 5;
 }
 
 .block-center{
@@ -56,6 +63,10 @@ html{
 
 .PP-p-30{
     padding: 30px;
+}
+
+._my-pt-60{
+    padding-top: 60px;
 }
 
 /* MY MARGIN */
@@ -134,3 +145,4 @@ footer{
 .font-icon{
     font-size: 25px;
 }
+
