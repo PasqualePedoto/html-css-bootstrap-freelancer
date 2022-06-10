@@ -112,6 +112,10 @@ di bootstrap
     height: 30px;
 }
 
+._h-70{
+    height: 70px;
+}
+
 /******* WIDTH *******/
 
 ._my-w-400{
